@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/margin_large"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:background="@drawable/background_pantone"
+    tools:context=".LoginActivity">
+
+    <TextView
+        android:id="@+id/health_pro_logo"
+        android:text="@string/health_pro"
+        style="@style/logo_style"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/margin_large"/>
+
+    <EditText
+        android:id="@+id/user_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/health_pro_logo"
+        android:paddingTop="@dimen/margin_large"
+        android:hint="@string/user_name"/>
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/user_name"
+        android:hint="@string/password"
+        android:inputType="textPassword"
+        android:password="true" />
+
+    <Button
+        android:id="@+id/sign_in_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/password"
+        android:text="@string/sign_in"
+        android:background="@drawable/button_border"
+        android:layout_marginTop="@dimen/margin_medium"/>
+
+    <Button
+        android:id="@+id/to_sign_up_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/sign_in_button"
+        android:paddingTop="@dimen/margin_large"
+        android:text="@string/to_sign_up"
+        style="?android:attr/borderlessButtonStyle"/>
+
+</RelativeLayout>

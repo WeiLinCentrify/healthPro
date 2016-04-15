@@ -1,0 +1,127 @@
+<resources>
+    <string name="app_name">HealthPro</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="sign_out">Sign out</string>
+
+    <!-- System Configuration-->
+    <!-- xmpp server-->
+    <string name="xmpp_host">xmpp.apprithm.com</string>
+    <string name="xmpp_port">5222</string>
+
+    <!-- Sign In Screen -->
+    <string name="health_pro">HealthPro</string>
+    <string name="sign_in">Sign In</string>
+    <string name="user_name">Username</string>
+    <string name="password">Password</string>
+    <string name="to_sign_up">Not a user? Register now</string>
+
+    <!-- Sign Up Screen-->
+    <string name="sign_up_label">Sign Up for HealthPro</string>
+    <string name="sign_up_email">Email</string>
+    <string name="sign_up_password_confirm">Enter your password again</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="to_sign_in">Already an user? Sign in now</string>
+
+    <!-- Homepage Screen -->
+    <string name="appt_btn">appointment_button</string>
+    <string name="record_btn">record_button</string>
+    <string name="search_btn">search_button</string>
+    <string name="setting_btn">setting_button</string>
+    <string name="no_appt_msg">You have no appointment at this time. All your patients are health :)</string>
+    <string name="open_schedule">OPEN SCHEDULE</string>
+
+    <!-- Appointment Detail Screen -->
+    <string name="appointment_reminder">Your appointment with %1$s is not ready.</string>
+    <string name="come_back_reminder">Check back again at 10min before the starting time.</string>
+    <string name="waiting_room_icon">waiting_room_icon</string>
+    <string name="title_activity_login">Sign in</string>
+    <string name="patient_info_label">Patient Information</string>
+    <string name="patient_description_label">Description of Symptom</string>
+    <string name="reminder_label">Appointment Reminder</string>
+
+    <!--&lt;!&ndash; Strings related to login &ndash;&gt;-->
+    <!--<string name="prompt_email">Email</string>-->
+    <!--<string name="prompt_password">Password (optional)</string>-->
+    <!--<string name="action_sign_in">Sign in or register</string>-->
+    <!--<string name="action_sign_in_short">Sign in</string>-->
+    <!--<string name="error_invalid_email">This email address is invalid</string>-->
+    <!--<string name="error_invalid_password">This password is too short</string>-->
+    <!--<string name="error_incorrect_password">This password is incorrect</string>-->
+    <!--<string name="error_field_required">This field is required</string>-->
+    <!--<string name="permission_rationale">"Contacts permissions are needed for providing email-->
+        <!--completions."-->
+    <!--</string>-->
+
+    <!-- Video call -->
+    <string name="menu_settings">Settings</string>
+    <string name="helloworld">Hello World</string>
+    <string name="helloworldui">UI Controls</string>
+    <string name="helloworldcapturer">Custom Capturer</string>
+    <string name="helloworldrenderer">Custom Renderer</string>
+    <string name="helloworldsubclassing">Multiparty</string>
+    <string name="voinceonly">Voice Only</string>
+    <string name="audiodevice">Audio device</string>
+    <string name="helloworldemulator">Emulator Hello World</string>
+    <string name="screensharing">Screen Sharing</string>
+
+    <string name="swapStr">Swap camera</string>
+    <string name="endCall1">End call</string>
+    <string name="endCall2">End</string>
+    <string name="audioOnly">Audio only</string>
+    <string name="send">Send</string>
+    <string name="archivingOn">Archiving on</string>
+    <string name="archivingOff">Archiving off</string>
+    <string name="notification">Ongoing call</string>
+    <string name="clearNotificationService">Clear Notification</string>
+
+    <!-- Schedule Screen -->
+    <string name="reminder">Select date to create a new time slot!</string>
+    <string name="date">Date: %1$s</string>
+    <string name="start_time_button">Start Time</string>
+    <string name="start_time_hint">Choose a start time</string>
+    <string name="start_time">Start time: %1$s</string>
+    <string name="end_time_button">End Time</string>
+    <string name="end_time_hint">Choose an end time</string>
+    <string name="end_time">End time: %1$s</string>
+    <string name="create_button">Create</string>
+
+    <!-- Record Screen -->
+    <string name="no_record_msg">You don\'t have any appointment record.</string>
+
+    <!-- Setting Screen -->
+    <string name="hello">Hello, %1$s !</string>
+    <string name="arrow"> > </string>
+    <string name="name">Name</string>
+    <string name="gender">Gender</string>
+    <string name="birthday">Birthday</string>
+    <string name="introduction">Introduction</string>
+    <string name="specialties">Specialties</string>
+
+    <!-- Update Introduction Screen-->
+    <string name="update">Update</string>
+    <string name="cancel">Cancel</string>
+    <string name="hint">Give us a brief introduction about yourself.</string>
+    <string name="introduction_label">Your introduction:</string>
+
+    <!-- Update Name Screen -->
+    <string name="first_name">First Name:</string>
+    <string name="last_name">Last Name:</string>
+
+    <!-- Update Gender Screen -->
+    <string name="female">Female</string>
+    <string name="male">Male</string>
+
+    <!-- Update Birthday Screen -->
+    <string name="your_birthday">Your birthday is %1$s</string>
+    <string name="change">Change</string>
+    <string name="no_birthday_msg">We don\'t know your birthday, please set up your birthday.</string>
+
+    <!-- Update Specialty Screen -->
+    <string name="specialty_label">Select specialties which fit you.</string>
+
+    <!-- chat fragment-->
+    <string name="no_msg">暂时没有新消息</string>
+
+</resources>
